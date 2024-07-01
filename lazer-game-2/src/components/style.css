@@ -1,0 +1,58 @@
+body{
+    background: -webkit-linear-gradient(bottom,rgb(0, 0, 0) 0%,rgb(9, 9, 88) 100%) no-repeat fixed;
+    background: -moz-linear-gradient(bottom,rgb(0, 0, 0) 0%,rgb(9, 9, 88) 100%) no-repeat fixed;
+
+}
+
+h1{
+   color:white;
+   text-align: center;
+   font-size: 40px;
+   background: url(images/h1bg.jpg) no-repeat center;  
+}
+#box{
+    display:flex;
+    justify-content:center;
+}
+
+#mirrorBreakLazer{
+    background:url(images/milkyWay.jpg) ;
+    color: white; 
+    margin:30px 20px;
+    width: 600px; 
+    height: 600px;
+}
+#menu{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+button{
+    background:url(images/milkyWay.jpg)  ;
+    color: white; 
+    border-radius: 5px;
+    font-size: 2em; 
+    border: 10px groove rgb(9, 9, 88) ;
+    
+    
+}
+
+button:hover{
+    background:url(images/milkyWay.jpg) fixed center;
+}
+
+button:active{
+    background:url(images/milkyWay.jpg)  100% ;
+}
+
+#speed{
+    text-align: center;
+}
+
+p{
+    color:white;  
+    text-align: center;
+}
+
+
